@@ -1,0 +1,10 @@
+name 'ericsson/log_aggregation'
+version '0.1.0'
+source 'git://github.com/Ericsson/puppet-module-log_aggregation.git'
+author 'ericsson'
+license 'Apache License, Version 2.0'
+summary 'EIS Log Aggregation'
+description 'manage EIS Log Aggregation client'
+project_page 'https://github.com/Ericsson/puppet-module-log_aggregation'
+
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
